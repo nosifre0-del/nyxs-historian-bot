@@ -1,0 +1,8 @@
+{
+  "builds": [
+    { "src": "api/bot.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "destination": "/api/bot.py" }
+  ]
+}
