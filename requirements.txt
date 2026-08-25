@@ -1,3 +1,0 @@
-pyTelegramBotAPI
-duckduckgo_search
-ollama
